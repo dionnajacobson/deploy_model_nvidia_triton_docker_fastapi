@@ -26,3 +26,4 @@ model.add(Dense(7, activation='softmax'))
 model.load_weights('model.h5')
 
 model.save('./emotion/')
+print(model.summary)
